@@ -1,0 +1,385 @@
+
+
+
+    /* . {
+        font-size: 11px;
+        text-align: center;
+    } */
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body h3,
+    h1,
+    p {
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+
+    /*nav bar*/
+    nav {
+        width: 100%;
+        height: 30px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 30px 0px 30px 0px;
+
+    }
+
+    nav .container-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin: auto;
+
+    }
+
+    nav .menu {
+        line-height: 100px;
+        padding-top: 4px;
+        cursor: pointer;
+    }
+
+    nav .logo {
+        padding-right: 0px;
+    }
+
+    nav .cart {
+        cursor: pointer;
+        position: relative;
+        bottom: 0px;
+    }
+
+    nav .avatar {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .cart-num h6 {
+        color: #000;
+        font-size: 13px;
+        text-align: center;
+     }
+
+        .cart-indicator {
+        background-color: hsl(26, 100%, 55%);
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        position: relative;
+        right: 9%;
+        bottom: 15px;
+        cursor: pointer;
+    }
+
+    .cart-indicator h6 {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+    }
+
+    /*toggle-bar*/
+    .close-btn {
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .toggle-bar {
+        height: 100%;
+        position: relative;
+        z-index: 10;
+        background-color: #fff;
+        width: 60%;
+        margin-top: 0px;
+    }
+
+    .transition {
+        transition: transform 1s ease-out;
+    }
+
+    .toggle-bar ul {
+        height: 100%;
+    }
+
+    .toggle-bar ul li {
+        list-style: none;
+        padding: 20px;
+    }
+
+    .toggle-bar ul li a {
+        text-decoration: none;
+        color: hsl(220, 13%, 13%);
+        font-weight: bold;
+    }
+
+    hr{
+        display: none;
+    }
+
+/*thumbnail section*/
+#thumbnail{
+    display: none;
+}
+    /*cart-box*/
+    .cart-container {
+        width: 100%;
+        height: 0;
+        background-color: transparent;
+    }
+
+    .cart-div {
+        width: 95%;
+        background-color: #fff;
+        position: absolute;
+        top: 85px;
+        right: 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        box-shadow: 1px solid #aaa;
+        z-index: 5;
+        height: 280px;
+    }
+
+    .filled {
+        margin-top: -80px;
+    }
+
+    .cart-div h2 {
+        font-size: 16px;
+        margin-left: 22px;
+        font-weight: bold;
+    }
+
+    .cart-div h3 {
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+    }
+
+    .cart-div span {
+        color: hsl(220, 13%, 13%);
+        font-weight: 600;
+    }
+
+    .cart-div img {
+        width: 25%;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-left: 22px;
+    }
+
+    .cart-flex {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
+/* 
+    .cart-div button {
+        width:
+    } */
+
+    .close-btn-filled {
+        float: right;
+        cursor: pointer;
+    }
+
+    /*empty cart*/
+    .empty {
+        height: 200px;
+    }
+
+    .empty h3 {
+        text-align: center;
+        margin-top: 80px;
+        font-weight: bold;
+    }
+
+    .close-btn-empty {
+        float: right;
+        cursor: pointer;
+    }
+
+
+
+    /* gallery*/
+    #gallery {
+        margin-top: -350px;
+    }
+
+    .carousel-item {
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /*hidden elements*/
+    .hidden {
+        transition: transform 1s ease-out;
+        transform: translateX(-100px);
+        visibility: hidden;
+    }
+
+    .invisible {
+        visibility: hidden;
+    }
+
+    .visible {
+        visibility: visible;
+    }
+
+    .hide{
+        visibility: hidden;
+    }
+
+    /*shopping section*/
+    #shopping {
+        width: 100%;
+    }
+
+    #shopping .shopping-div {
+        width: 90%;
+        margin: auto;
+    }
+
+    #shopping h3 {
+        color: hsl(26, 100%, 55%);
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #shopping h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    #shopping p {
+        margin-bottom: 20px;
+    }
+
+    .values {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .values h5 {
+        margin-top: 8px;
+        text-decoration: line-through;
+        color: hsl(220, 14%, 75%);
+    }
+
+    .percent {
+        background-color: hsl(25, 100%, 94%);
+        border-radius: 3px;
+        margin-right: 60px;
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    .percent h6 {
+        text-align: center;
+        margin-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .symbols {
+        display: flex;
+        justify-content: space-around;
+        background-color: hsl(223, 64%, 98%);
+        height: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .symbols h4 {
+        cursor: pointer;
+        margin-top: 10px;
+        color: hsl(26, 100%, 55%);
+        font-size: 20px;
+    }
+
+    .symbols h5 {
+        margin-top: 10px;
+    }
+
+
+    .cart-btn {
+        width: 80%;
+        height: 50px;
+        display: block;
+        margin: auto;
+        background-color: hsl(26, 100%, 55%);
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        margin-bottom: 15px;
+
+    }
+
+    .cart-btn h4 {
+        display: inline;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .cart2 {
+        margin-bottom: 5px;
+    }
+
+    /*overlay*/
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 180%;
+        background-color: rgba(0, 0, 0, .6);
+        filter: blur(3px);
+        z-index: 9;
+
+    }
+
+    /*display pic*/
+    #display-pic {
+        text-align: center;
+        position: relative;
+        bottom: 800px;
+        width: 100%;
+    }
+
+    #display-pic .display-div img {
+        width: 90%;
+        height: 400px;
+        position: absolute;
+        top: 0px;
+        text-align: center;
+        z-index: 12;
+
+    }
+
+
+    .display-div {
+        margin-right: 90%;
+    }
+
+    .close-btn-pic {
+        position: absolute;
+        right: 5px;
+        z-index: 12;
+        cursor: pointer;
+    }
+
+    

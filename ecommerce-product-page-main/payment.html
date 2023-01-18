@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style-1.css">
+  <link rel="stylesheet" href="payment.css">
+  
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+-->
+</head>
+<body>
+    <section id="big-main">
+        <img class="big-main-mobile" src="images/bg-main-mobile.png">
+        <img class="big-main-desktop hidden" src="images/bg-main-desktop.png">
+        <img  class="card-back"src="images/bg-card-back.png">
+        <p class="cvc">000</p>
+        <img class="front-card" src="images/bg-card-front.png">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="zeros">
+            <p class="zero-text">0000  0000  0000  0000</p>
+        </div>
+        <div class="text">
+            <p class="name-text">Jane Appleseed</p>
+            <p class="month-text"> 00</p> <p class="slash">/</p> <p class="year-text">00</p>
+        </div>
+    </section>
+    
+<!--    form section-->
+    <section id="form">
+        <form>
+            <p class="p">Cardholder Name</p>
+            <input class="name" type="text" name="text" placeholder="e.g. Jane Appleseed">
+            <h6 class="name-h6 hidden" >Please fill in your name</h6>
+            <p class="p">Card Number</p>
+            <input class="card-number" type="text" name="text" placeholder=" e.g. 1234 5678 9123 0000">
+            <h6 class="cardnum-h6 hidden">Wrong format, numbers only.</h6>
+            <div class="date-flex">
+                <div class="month-div">
+                    <p>Exp. Date</p>
+                    <input class="month" type="text" name="text" placeholder="MM">
+                    <h6 class="exp-h6 hidden">Can't be blank</h6>
+                </div>
+                
+                <div class="year-div">
+                    <p> (MM/YY)</p>
+                    <input class="year" type="text" name="text" placeholder="YY">
+                </div>
+                
+                <div number-div>
+                    <p> CVC</p>
+                    <input class="number" type="text" name="text" placeholder=" e.g. 123">
+                    <h6 class="cvc-h6 hidden">Can't be blank</h6>
+                </div>
+                  </div>
+        </form>
+        <button class="btn" type="button">Confirm</button>
+    </section>
+    
+    <script type="module" src="payment.js"></script>
+  <!-- Completed state start -->
+
+<!--
+  Thank you!
+  We've added your card details
+  Continue
+  
+-->
+<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+-->
+</body>
+</html>

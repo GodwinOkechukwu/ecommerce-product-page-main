@@ -1,0 +1,366 @@
+@media only screen and (min-width: 900px) {
+    body{
+        width: 100%;
+    }
+    /*    nav bar*/
+    nav {
+        width: 100%;
+        height: 30px;
+        background-color: White: hsl(0, 0%, 100%);
+        padding: 30px 0px 30px 0px;
+
+    }
+
+    nav .container-nav {
+        display: block;
+        width: 100%;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav .logo {
+        padding-right: 0px;
+        position: relative;
+        left: 10%;
+        z-index: 2;
+    }
+
+    nav .cart {
+        cursor: pointer;
+        position: relative;
+        left: 80%;
+        bottom: 20px;
+        z-index: 2;
+      
+    }
+
+    nav .avatar {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        left: 87%;
+        bottom: 60px;
+  
+    }
+
+    .cart-indicator {
+        background-color: hsl(26, 100%, 55%);
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        position: relative;
+        left: 80%;
+        bottom: 35px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .cart-indicator h6 {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .close-btn {
+        display: none;
+    }
+
+    .toggle-bar {
+        height: 100%;
+        position: relative;
+        bottom: 25px;
+        left: 13%;
+        width: 60%;
+        margin: auto;
+        z-index: 1;
+    }
+
+    .transition {
+        transition: transform 1s ease-out;
+    }
+
+    .toggle-bar ul {
+    
+    }
+
+    .toggle-bar ul li {
+        list-style: none;
+        padding: 20px;
+        display: inline;
+    }
+
+    .toggle-bar ul li a {
+        text-decoration: none;
+        color: hsl(220, 13%, 13%);
+        font-weight: 200;
+    }
+    
+    .toggle-bar ul li a:hover{
+        color: hsl(26, 100%, 55%);
+    }
+    
+    hr{
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-top: -10px;
+    }
+    
+     /*hidden elements*/
+    .hidden {
+        visibility: visible;
+       
+    }
+
+    .invisible {
+        visibility: visible;
+    }
+
+    .visible {
+        visibility: visible;
+    }
+    
+    
+     /*overlay*/
+    .overlay {
+        display: none;
+
+    }
+    
+    /* gallery*/
+    #gallery {
+        margin-top: 100px;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .carousel-item {
+        height: 500px;
+        width: 80%;
+    }
+    
+    .carousel-item img{
+        border-radius: 20px 20px 20px 20px; 
+    }
+    
+    .carousel-control-next{
+        display: none;
+    }
+    
+    .carousel-control-prev{
+        display: none;
+    }
+    
+/*    cart number indication*/
+    .cart-num{
+       
+    }
+    
+/*    thumnail section*/
+    #thumbnail{
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 30px;
+        width: 60%;
+    }
+    
+    #thumbnail div{
+        width: 100%;
+    }
+    
+    #thumbnail div img{
+        width: 13%;
+        border-radius: 5px 5px 5px 5px;
+        
+    }
+    
+    
+    /*shopping section*/
+    #shopping {
+        width: 40%;
+        position: absolute;
+        right: 20px;
+        top: 150px;
+    }
+
+    #shopping .shopping-div {
+        width: 90%;
+        margin: auto;
+    }
+
+    #shopping h3 {
+        color: hsl(26, 100%, 55%);
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #shopping h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    #shopping p {
+        margin-bottom: 20px;
+    }
+
+    .values {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .values h5 {
+        margin-top: 8px;
+        text-decoration: line-through;
+        color: hsl(220, 14%, 75%);
+    }
+
+    .percent {
+        background-color: hsl(25, 100%, 94%);
+        border-radius: 3px;
+        margin-right: 60px;
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    .percent h6 {
+        text-align: center;
+        margin-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .symbols {
+        display: flex;
+        justify-content: space-around;
+        background-color: hsl(223, 64%, 98%);
+        height: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .symbols h4 {
+        cursor: pointer;
+        margin-top: 10px;
+        color: hsl(26, 100%, 55%);
+        font-size: 20px;
+    }
+
+    .symbols h5 {
+        margin-top: 10px;
+    }
+
+
+    .cart-btn {
+        width: 80%;
+        height: 50px;
+        display: block;
+        margin: auto;
+        background-color: hsl(26, 100%, 55%);
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        margin-bottom: 15px;
+
+    }
+
+    .cart-btn h4 {
+        display: inline;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .cart2 {
+        margin-bottom: 5px;
+    }
+    
+      .cart-container {
+        width: 100%;
+        height: 0;
+        background-color: transparent;
+    }
+
+    .cart-div {
+        width: 95%;
+        background-color: #fff;
+        position: absolute;
+        top: 85px;
+        right: 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        box-shadow: 1px solid #aaa;
+        z-index: 5;
+        height: 280px;
+    }
+
+    .filled {
+        margin-top: -80px;
+        width: 30%;
+    }
+
+    .cart-div h2 {
+        font-size: 16px;
+        margin-left: 22px;
+        font-weight: bold;
+    }
+
+    .cart-div h3 {
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+    }
+
+    .cart-div span {
+        color: hsl(220, 13%, 13%);
+        font-weight: 600;
+    }
+
+    .cart-div img {
+        width: 25%;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-left: 22px;
+    }
+
+    .cart-flex {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .cart-div button {
+        width:
+    }
+
+    .close-btn-filled {
+        float: right;
+        cursor: pointer;
+    }
+
+    /*empty cart*/
+    .empty {
+        height: 200px;
+        width: 30%;
+    }
+
+    .empty h3 {
+        text-align: center;
+        margin-top: 80px;
+        font-weight: bold;
+    }
+
+    .close-btn-empty {
+        float: right;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+}

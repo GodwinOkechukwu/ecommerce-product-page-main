@@ -1,0 +1,206 @@
+@media only screen and (min-width: 900px){
+/*    big main section*/
+    #big-main{
+    width: 35%;
+
+    }
+    .big-main-mobile{
+       display: none;
+    }
+
+    .big-main-desktop{
+        display: block;
+        width: 35%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-back{
+        width: 30%;
+        position: absolute;
+        top: 470px;
+        left: 150px;
+        z-index: 1;
+    }
+
+    .front-card{
+        width: 30%;
+        position: absolute;
+        top: 205px;
+        left: 100px;
+        z-index: 1;
+    }
+
+    .circle-1{
+        width: 30px;
+        height: 30px;
+        background-color: hsl(270, 3%, 87%);
+        border-radius: 100%;
+        position:absolute;
+        top: 215px;
+        left: 125px;
+        z-index: 1;
+    }
+
+    .circle-2{
+        width: 10px;
+        height: 10px;
+        border:1px solid hsl(270, 3%, 87%);
+        border-radius: 100%;
+        position: absolute;
+        top: 227px;
+        left: 170px;
+        z-index: 1; 
+    }
+
+    .zeros{
+        position: absolute;
+        top: 290px;
+        left: 125px;
+        z-index: 1;
+        color: hsl(270, 3%, 87%);
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text{
+        position: absolute;
+        top: 331px;
+        left: 125px;
+        z-index: 1;
+        color: hsl(270, 3%, 87%);
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text p{
+        font-size: 10px;
+    }
+    
+        /*form section*/
+    #form{
+        margin-top: 80px;
+        background-color: hsl(0, 0%, 100%);
+        width: 65%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #form .p{
+        text-transform: uppercase;
+        text-align: justify; 
+        margin-left: 150px;
+    }
+
+    form{
+        margin-top: 150px;
+    }
+
+    input{
+      width: 50%;
+        height: 40px;
+        border-radius: 5px 5px 5px 5px;
+        border: 1px solid hsl(270, 3%, 87%);
+        font-size: 15px;
+        margin: 15px;
+    }
+
+    placeholder{
+
+    }
+    
+    .name-h6{
+        margin-left: 150px;
+    }
+    
+    .cardnum-h6{
+         margin-left: 150px;
+    }
+    
+    .exp-h6{
+        width: 80px;
+    }
+    
+    .cvc-h6{
+        
+    }
+
+    .date-flex{
+       display: flex;
+       justify-content: space-around;
+        width: 75%;
+        margin: auto;
+    }
+    
+    .date-flex p{
+        margin-left: 22px;
+    }
+
+    .month-div{
+        text-align: justify;
+        width: 20%;
+        margin-left: 50px;
+    }
+    
+    .month-div p{
+        width: 100%;
+    }
+
+    .month{
+        width: 70%;
+        margin-left: 22px;
+    }
+    
+    .p{
+        
+        margin-left: 0px;
+    }
+
+    .year-div{
+         text-align: justify;
+         width: 20%; 
+        margin-left: -5px;
+
+    }
+    .year{
+        width: 70%;
+        margin-left: 5px;
+
+    }
+
+    .number-div{
+        text-align: left;
+        width: 50%; 
+    }
+
+    .number{
+        width: 80%;
+        margin-left: -10px;
+        margin-right: 50px;
+        
+
+    }
+
+    button{
+        width: 50%;
+        padding: 10px;
+        background-color: hsl(278, 68%, 11%);
+        cursor: pointer;
+        border: 1px solid hsl(278, 68%, 11%);
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 10px;
+    }
+
+    button a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-size: 16px;  
+    }
+
+
+}

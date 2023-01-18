@@ -1,0 +1,211 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 11px; 
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+}
+
+body a{
+     color: hsl(228, 45%, 44%); 
+}
+
+body p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+/*big main section*/
+#big-main{
+    width: 100%;
+    
+}
+.big-main-mobile{
+   width: 100%; 
+}
+
+.big-main-desktop{
+    
+}
+
+.card-back{
+    width: 75%;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+
+.cvc{
+    position: absolute;
+    top: 95px;
+    right: 60px;
+    color: hsl(270, 3%, 87%);
+}
+
+.front-card{
+    width: 75%;
+    position: absolute;
+    top: 125px;
+    left: 15px;
+    z-index: 1;
+}
+
+.circle-1{
+    width: 30px;
+    height: 30px;
+    background-color: hsl(270, 3%, 87%);
+    border-radius: 100%;
+    position:absolute;
+    top: 144px;
+    left: 36px;
+    z-index: 1;
+}
+
+.circle-2{
+    width: 10px;
+    height: 10px;
+    border:1px solid hsl(270, 3%, 87%);
+    border-radius: 100%;
+    position: absolute;
+    top: 152px;
+    left: 77px;
+    z-index: 1; 
+}
+
+.zeros{
+    position: absolute;
+    top: 210px;
+    left: 36px;
+    z-index: 1;
+    color: hsl(270, 3%, 87%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    position: absolute;
+    top: 252px;
+    left: 36px;
+    z-index: 1;
+    color: hsl(270, 3%, 87%);
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text p{
+    font-size: 10px;
+}
+
+.slash{
+    margin-right: -80px;
+}
+
+.month-text{
+    margin-right: -80px;
+}
+
+/*form section*/
+#form{
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#form p{
+    text-transform: uppercase;
+    text-align: justify; 
+    margin-left: 22px;
+}
+
+form{
+    
+}
+
+input{
+  width: 90%;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid hsl(270, 3%, 87%);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+h6{
+    color: indianred;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 18px;
+    padding-bottom: 5px;
+}
+
+placeholder{
+    
+}
+
+.date-flex{
+   display: flex;
+   justify-content: space-around;
+    width: 100%;
+   
+}
+
+.month-div{
+    text-align: justify;
+    width: 33%;
+}
+
+.month{
+    width: 70%;
+    margin-left: 22px;
+    
+}
+
+.year-div{
+     text-align: justify;
+     width: 33%; 
+    margin-left: -25px;
+    
+}
+.year{
+    width: 70%;
+    margin-left: 22px;
+  
+}
+
+.number-div{
+    text-align: left;
+    width: 80%; 
+}
+
+.number{
+    width: 80%;
+     
+}
+
+button{
+    width: 80%;
+    padding: 10px;
+    background-color: hsl(278, 68%, 11%);
+    cursor: pointer;
+    border: 1px solid hsl(278, 68%, 11%);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+     color: hsl(0, 0%, 100%);
+    font-size: 16px;     
+}
+
+
+
+/*hidden elements*/
+.hidden{
+    display: none;
+}
